@@ -1,6 +1,6 @@
 [package]
 name = "trust-dns-integration"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Benjamin Fry <benjaminfry@me.com>"]
 
 # A short blurb about the package. This is not rendered in any format when
@@ -80,8 +80,8 @@ tokio-udp = "0.1"
 trust-dns = { version = "0.16.0", path = "../../crates/client" }
 trust-dns-https = { version = "0.3.0", path = "../../crates/https" }
 trust-dns-openssl = { version = "0.6.0", path = "../../crates/openssl" }
-trust-dns-proto = { version = "0.7.3", path = "../../crates/proto" }
-trust-dns-resolver = { version = "0.11.0", path = "../../crates/resolver" }
+trust-dns-proto = { version = "0.7.4", path = "../../crates/proto" }
+trust-dns-resolver = { version = "0.11.1", path = "../../crates/resolver" }
 trust-dns-rustls = { version = "0.6.0", path = "../../crates/rustls" }
 # TODO: fixup tests to not require openssl
 trust-dns-server = { version = "0.16.0", path = "../../crates/server" }
